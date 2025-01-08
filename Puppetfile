@@ -3,7 +3,8 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-ntp', '11.0.0'
 
 mod 'apache', 
-  :git => 'https://github.com/km5137/puppet-apache.git'
+  :git    => 'https://github.com/km5137/puppet-apache.git'
+  :branch => 'master'
 
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
