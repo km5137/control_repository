@@ -3,7 +3,7 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-ntp', '11.0.0'
 
 mod 'apache', 
-  :git    => 'https://github.com/km5137/puppet-apache.git'
+  :git => 'https://github.com/km5137/puppet-apache.git'
   :ref => 'master'
 
 # Modules from the Puppet Forge
